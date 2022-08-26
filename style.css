@@ -312,7 +312,7 @@ time .fa-clock{
     inset: 7rem var(--size-200) auto;
     max-width:80rem;
     margin-left: auto;
-    background: var(--clr-neutral-100);
+    background: var(--clr-primary-100);
     border-radius: 4px;
     box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
   }
