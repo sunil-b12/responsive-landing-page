@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Frontend-Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="navbar">
+          <a href=""><img src="./Image/logo.png" alt="Webpage logo" class="nav-logo"></a>
+          <nav class="primary-navigation"  id="primary-navigation">
+            <ul role="list" aria-label="primary-navigation" class="nav-list">
+              <li ><a href="#" class="active">Home</a></li>
+              <li><a href="#">About Us +</a></li>
+              <li><a href="#">News and Events +</a></li>
+              <li><a href="#">Gallary</a></li>
+              <li><a href="#">Resources +</a></li>
+              <li><a href="#">Porjects</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <form action="#" class="search-button">
+            <input type="text" class="search-input" placeholder="Search">
+            <a href="#" class="search-btn"><i class="fa-solid fa-magnifying-glass fs-100" ></i></a>
+          </form>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img class="hamburger-icon" src="./Image/Hamburger_icon.png" alt="" aria-hidden="true">
+            <img class="close-icon" src="./Image/button-crossed-logo.png" alt=""  aria-hidden="true">
+            <span class="visually-hidden">Menu</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--Hero Section-->
+      <div class="hero">
+        <div class="carousel-01">
+          <div class="carousal-tack-container">
+            <ul class="carousel-track">
+              <li class="carousel-slide">
+                <img src="./Image/header-img.png" class="carousel-image" alt="">
+              </li>
+              <li class="carousel-slide current-slide">
+                <img src="./Image/header1.png" class="carousel-image" alt="">
+              </li>
+              <li class="carousel-slide">
+                <img src="./Image/header2.png" class="carousel-image" alt="">
+              </li>
+              <li class="carousel-slide">
+                <img src="./Image/header3.png" class="carousel-image" alt="">
+              </li>
+            </ul>
+            <div class="carousel-nav">
+              <button class="carousel-indicator current-slide"></button> 
+              <button class="carousel-indicator"></button> 
+              <button class="carousel-indicator"></button> 
+              <button class="carousel-indicator"></button> 
+            </div>
+          </div>
+          <div class="post">
+            <div class="container">
+              <div class="featured-post">
+                <div class="post-info">
+                  <span class="flex">
+                    <h1 class="fs-primary-heading text-primary">Featured Posts</h1>
+                    <i class="fa-solid fa-chevron-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    </span><hr>
+                  <h3 class="fs-secoundary-heading text-primary">Researchers explore impact of obesity on dog’s health</h3>
+                  <time>
+                    <i class="fa-regular fa-clock"></i>
+                    <small class="fs-100">Feb 24, 2019</small>
+                  </time>
+                  <p class="fs-400">
+                    If you thought that obesity affects 
+                    only humans, you may be wrong. It can also shorten 
+                    the lives of your canine friends, finds research. 
+                    The research, from the University of Liverpool in the UK, reveals 
+                  </p>
+                  <button class="button">
+                    <img src="./Image/Vector-arrow.png"  alt="Vector-arrow icon">
+                    <b class="fs-400 text-primary">READ MORE</b> 
+                  </button>
+                </div>
+                <div class="social-icon | flex">
+                  <h4 class="fs-600 text-primary">
+                    Follow us on:
+                  </h4>
+                  <span class="social-icons">
+                    <ul role="list" aria-label="social link" class="flex fs-700">
+                      <li><a aria-label="Twitter" href="#"><i class="fa-brands fa-twitter | text-primary "></i></a></li>
+                      <li><a aria-label="Linkedln" href="#"><i class="fa-brands fa-linkedin | text-primary"></i></a></li>
+                      <li><a aria-label="Instagram" href="#"><i class="fa-brands fa-facebook | text-primary"></i></a></li>
+                      <li><a aria-label="Youtube" href="#"><i class="fa-brands fa-youtube | text-primary"></i></a></li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Meet Dog-->
+      <section>
+        <div class="container">
+          <div class="even-columns">
+            <div class="right| padding-top-500">
+              <div class="heading">
+                <h2 class="fs-primary-heading text-secoundary">Meet the Dogs</h2>
+                <h5 class="fs-500 text-secoundary-100">Meet some of the dogs helped by 
+                  The Grey Muzzle Organization. We provide 
+                  grants and other funding to pay expenses, 
+                  \such as medical care, so the wonderful
+                   organizations that give these dogs a second chance
+                    can focus on their care.
+                </h5>
+                <button class="button">
+                  <img src="./Image/Vector-arrow1.png"  alt="">
+                 <b class="fs-400">READ MORE</b> 
+                </button>
+              </div>
+            </div>
+            <div class="left">
+              <img src="./Image/dog.png" alt="Sitting Dog" class="meet-dog-img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Recent Project-->
+      <section class="bg-primary-100">
+        <div class="container">
+          <div class="even-columns">
+            <div class="right">
+              <div class="heading">
+                <h2 class="fs-primary-heading text-secoundary">Recent Project.</h2>
+                <h5 class="fs-500 text-secoundary-100">Meet some of the dogs helped by The Saltpeater 
+                  Organization. We provide grants and other funding 
+                  to pay expenses, 
+                  such as medical care, so the wonderful organizations 
+                </h5>
+              </div>
+              <div class="recent-card">
+                <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+                <img src="./Image/dog4.png" alt="Waking Dog">
+              </div>
+              <div class="recent-card"> 
+                <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+                <img src="./Image/dog3.png" alt="Sitting Dog">
+              </div>
+            </div>
+            <div class="left">
+              <div class="recent-card">
+                <figcaption>
+                  <caption>
+                    <h3 class="fs-secoundary-heading text-primary">Forbes Features The Grey Muzzle Organization</h3>
+                    <time>
+                      <i class="fa-regular fa-clock | fs-100  text-primary-300"></i>
+                      <small class="fs-100 text-primary-300">Feb 24, 2019</small>
+                    </time>
+                    <p class="fs-400 text-neutral-300">We are thrilled that Forbes has highlighted 
+                      The Grey Muzzle Organization as one of its "12 Days of Charitable Giving"
+                      nonprofits to consider contributing to this holiday season!  </p>
+                    <button class="button">
+                      <img src="./Image/Vector-arrow1.png"  alt="">
+                      <b class="fs-400">READ MORE</b> 
+                    </button>
+                  </caption>
+                </figcaption>
+                <img src="./Image/dog6.png" alt="sleeping dog" class="recent-img">
+              </div>
+              <div class="recent-card">
+                <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+                <img src="./Image/dog2.png" alt="Man carring the dog in the bag">
+              </div>
+              <button class="button">
+                <img src="./Image/Vector-arrow1.png"  alt="">
+               <b class="fs-400">VIEW MORE PROJECTS</b> 
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--Upcoming Events-->
+       <section>
+        <div class="container">
+          <div class="heading">
+            <h2 class="fs-primary-heading text-secoundary">Upcoming Events.</h2>
+            <h5 class="fs-500 text-secoundary-100">We have a host of wonderful
+              events lined up for the year ahead that 
+              help raise funds and awareness for Street Dogs.
+               We look forward to meeting you.
+            </h5>
+          </div>
+          <div class="event-cards">
+            <div class="event-card">
+              <span><p class="fs-600 text-neutral">23</p><small class="fs-100 text-secoundary">MAR</small></span>
+              <img src="./Image/building.png" alt="Building with big many glasses window" class="event-card-image">
+              <div class="event-card-info | bg-primary">
+                <time class="fs-300 text-secoundary-100">Feb 23, 2019, 11:00 PM - 2:00PM</time>
+                <h4 class="fs-600 text-secoundary">Sketch Meetup Kathmandu V2 - "Unpresent"</h4>
+                <ul  role="list" class="card-link">
+                  <li class="fs-300"><a href="#" class="text-neutral">ngodistro</a></li>
+                  <li class="fs-300"><a href="#" class="text-neutral">blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="event-card">
+              <span><p class="fs-600 text-neutral">25</p><small class="fs-100 text-secoundary">FEB</small></span>
+              <img src="./Image/dog-walk.png" alt="Man take his dog for a Walk." class="event-card-image">
+              <div class="event-card-info | bg-primary">
+                <time class="fs-300 text-secoundary-100">Feb 25, 2019, 11:00 PM</time>
+                <h4 class="fs-600 text-secoundary">Simple truth about 200-day moving average</h4>
+                <ul  role="list" class="card-link">
+                  <li class="fs-300"><a href="#" class="text-neutral">Street</a></li>
+                  <li class="fs-300"><a href="#" class="text-neutral">dogs</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="event-card">
+              <span><p class="fs-600 text-neutral">28</p><small class="fs-100 text-secoundary">FEB</small></span>
+              <img src="./Image/dog-forest.png" alt="Dog is Waking in forest." class="event-card-image">
+              <div class="event-card-info | bg-primary">
+                <time class="fs-300 text-secoundary-100">Feb 28, 2019, 11:00 PM</time>
+                <h4 class="fs-600 text-secoundary">Street dogs vaccinated against diseases/rabies</h4>
+                <ul  role="list" class="card-link">
+                  <li class="fs-300"><a href="#" class="text-neutral">Street</a></li>
+                  <li class="fs-300"><a href="#" class="text-neutral">dogs</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="past-events">
+            <h3 class="fs-secoundary-heading text-primary">Past Events</h3>
+            <div class="past-event">
+              <div class="past-event-card">
+                <img src="./Image/street-dog.png" alt="">
+                <h5 class="fs-500 text-secoundary padding-block-100">The Street Giveth and the Street Taketh Away</h5>
+              </div>
+              <div class="past-event-card">
+                <img src="./Image/street-dog1.png" alt="">
+                <h5 class="fs-500 text-secoundary padding-block-100">The 59th Street Bridge Song</h5>
+              </div>
+              <div class="past-event-card">
+                <img src="./Image/street-dog2.png" alt="">
+                <h5 class="fs-500 text-secoundary padding-block">Wild In The Streets</h5>
+              </div>
+              <div class="past-event-card">
+                <img src="./Image/street-dog3.png" alt="">
+                <h5 class="fs-500 text-secoundary padding-block">Incident on 57th Street</h5>
+              </div>
+            </div>
+            <button class="button">
+              <img src="./Image/Vector-arrow1.png"  alt="">
+             <b class="fs-400">VIEW MORE EVENTS</b> 
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--Recent News-->
+      <section class="bg-primary-100">
+        <div class="container">
+          <div class="even-columns">
+            <div class="right">
+              <div class="heading">
+                  <h2 class="fs-primary-heading text-secoundary">Recent News.</h2>
+                  <h5 class="fs-500 text-secoundary-100">More than 22,500 dogs live on 
+                      the streets of Kathmandu, Nepal, and many
+                      suffer from starvation, infected open sores,
+                        mange, and other injuries and illnesses.
+                  </h5>
+              </div>
+              <div class="news-card">
+                <div class="news-card-info"> 
+                  <div>
+                    <time>
+                      <i class="fa-regular fa-clock"></i>
+                      <small>Feb 24, 2019 </small>
+                    </time>
+                    <h4 class="fs-600 text-secoundary">
+                      Five stray dogs found dead in Serampore; some lying ill
+                    </h4>
+                    <button class="button flex">
+                      <img src="./Image/Vector-arrow1.png"  alt="">
+                      <b class="fs-400">READ MORE</b> 
+                    </button>
+                  </div>
+                </div>
+                <img src="./Image/wolft-dog.png" alt="sleeping dog" class="recent-img">
+               </div>
+              <button class="button">
+                <img src="./Image/Vector-arrow1.png"  alt="">
+                <b class="fs-400">VIEW MORE NEWS</b> 
+              </button>
+            </div>
+            <div class="left">
+              <div class="news-card">
+                <div class="news-card-info">
+                  <div>
+                    <time>
+                      <i class="fa-regular fa-clock"></i>
+                      <small>Feb 26, 2019 </small>
+                    </time>
+                    <h4 class="fs-600 text-secoundary">Thousands of street dogs in Mauritius visit paradise KTM’s first ever spay/neuter clinic as</h4>
+                    <button class="button flex">
+                      <img src="./Image/Vector-arrow1.png"  alt="">
+                      <b class="fs-400">READ MORE</b> 
+                    </button>
+                  </div>
+                </div>
+                <img src="./Image/street-dog4.png" alt="sleeping dog" class="news-card-img">
+              </div>
+
+               <div class="news-card">
+                <div class="news-card-info">
+                  <div>
+                    <time>
+                      <i class="fa-regular fa-clock"></i>
+                      <small>Feb 26, 2019 </small>
+                    </time>
+                    <h4 class="fs-600 text-secoundary">
+                      101 Dalmatian Street: Dogs, London landmarks and musical magic ...
+                    </h4>
+                    <button class="button flex">
+                      <img src="./Image/Vector-arrow1.png"  alt="">
+                      <b class="fs-400">READ MORE</b> 
+                    </button>
+                  </div>
+                </div>
+                <img src="./Image/street-dog5.png" alt="sleeping dog" class="news-card-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    <!--Our Team-->
+    <section>
+      <div class="container">
+        <div class="heading">
+          <h2 class="fs-primary-heading text-secoundary">Our Team.</h2>
+          <h5 class="fs-500 text-secoundary-100">We are not a team because we work together.
+             We are a team because we respect, trust and 
+             care for each other.
+          </h5>
+        </div>
+        <div class="team-cards">
+          <div class="team-card"> <!-- Team Card-01-->
+            <img src="./Image/person.png" alt="" class="team-card-image">
+            <div class="team-card-info">
+              <h4><b class="fs-600 text-secoundary">John Filmr Doe</b></h4>
+              <p class="fs-400 text-secoundary-100">If you are going to use a passage of you sure there isn't middle of text.</p>
+              <ul role="list" class="team-social-link">
+                <li><a href="#"><i class="fa-brands fa-instagram fa-brand | text-neutral"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin fa-brand  | text-neutral"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter fa-brand  | text-neutral"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-card"> <!-- Team Card-02-->
+            <img src="./Image/person1.png" alt="" class="team-card-image">
+            <div class="team-card-info">
+              <h4 class="fs-600 text-secoundary">Lora Martin</h4>
+              <p class="fs-400 text-secoundary-100">If you are going to use a passage of you sure there isn't middle of text.</p>
+              <ul role="list" class="team-social-link">
+                <li><a href="#"><i class="fa-brands fa-instagram fa-brand | text-secoundary"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin fa-brand | text-secoundary"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter fa-brand | text-secoundary"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-card"> <!-- Team Card-03-->
+            <img src="./Image/person2.png" alt="" class="team-card-image">
+            <div class="team-card-info">
+              <h4 class="fs-600 text-secoundary">Lora Martin</h4>
+              <p class="fs-400 text-secoundary-100">If you are going to use a passage of you sure there isn't middle of text.</p>
+              <ul role="list" class="team-social-link">
+                <li><a href="#"><i class="fa-brands fa-instagram fa-brand | text-secoundary"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin fa-brand | text-secoundary"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter fa-brand | text-secoundary"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--Gallery-->
+     <section class="bg-primary-100">
+      <div class="container">
+        <div class="even-columns">
+          <div class="right">
+            <div class="heading">
+              <h2 class="fs-primary-heading text-secoundary">Gallery.</h2>
+              <h5 class="fs-500 text-secoundary-100">
+                We have entered into a national partnership with YandC Store
+                 and you will find all of our incredible online content.
+              </h5>
+            </div>
+            <div class="gallary-card"> <!-- Gallary Card-01 -->
+             <!-- The above code is creating a caption for the image. -->
+              <figcaption>
+                <caption>
+                  <time>
+                    <i class="fa-regular fa-clock"></i>
+                    <small class="fs-100 text-primary">Feb 24, 2019 </small>
+                  </time>
+                  <h3 class="fs-secoundary-heading text-primary">Forbes Features The Grey Muzzle Organization</h3>
+                  <button class="button">
+                    <img src="./Image/Vector-arrow1.png"  alt="">
+                    <b class="fs-400 text-primary">VIEW GALLERY</b> 
+                  </button>
+                </caption>
+              </figcaption>
+              <img src="./Image/Gallery-dog.png" alt="Standing dog" class="recent-img">
+            </div>
+          </div>
+
+          <div class="left">
+            <div class="gallary-card"> <!-- Gallary Card-02 -->
+              <!-- The above code is creating a caption for the image. -->
+              <figcaption>
+                <caption>
+                  <time>
+                    <i class="fa-regular fa-clock"></i>
+                    <small class="fs-100 text-primary">Feb 24, 2019 </small>
+                  </time>
+                  <h3 class="fs-secoundary-heading text-primary">Holiday gifts that celebrate old dogs!</h3>
+                  <button class="button">
+                    <img src="./Image/Vector-arrow1.png"  alt="">
+                    <b class="fs-400 text-primary">VIEW GALLERY</b> 
+                  </button>
+                </caption>
+              </figcaption>
+              <img src="./Image/Gallery-dog1.png" alt="Standing dog" class="recent-img">
+            </div>
+            <button class="button">
+              <img src="./Image/Vector-arrow1.png"  alt="">
+              <b class="fs-400">VIEW MORE GALLERIES</b> 
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Client Testimonials-->
+    <section>
+      <div class="container">
+        <div class="heading">
+          <h2 class="fs-primary-heading text-secoundary">Client Testimonial.</h2>
+          <h5 class="fs-500 text-secoundary-100">People are saying great things about us.</h5>
+        </div>
+        <div class="carousel">
+          <div class="owl-carousel testimonial-slide">
+            <div class="testimonial-card"> <!--Testimonial Card-01-->
+              <div class="testimonial-card-quote | bg-neutral-100">
+                <p>
+                  <i class="fa-solid fa-quote-right"></i>
+                  <small  class="fs-400 text-primary">Lorem ipsum dolor sit amet constur adipisicing elit sed 
+                  eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.
+                </small> </p>
+              </div>
+              <span class="half-box"></span>
+              <div class="testimonial-card-info flex">
+                <img src="./Image/Ellipse1.png" alt="Women working in laptop">
+                <span>
+                  <b class="fs-600 text-neutral">Lora Martin</b>
+                  <small class="fs-400 text-secoundary-100">Web Developer/</small>
+                </span>
+              </div>
+            </div>
+
+            <div class="testimonial-card"> <!--Testimonial Card-02-->
+              <div class="testimonial-card-quote | bg-neutral-100">
+                <p>
+                  <i class="fa-solid fa-quote-right"></i>
+                  <small  class="fs-400 text-primary">Lorem ipsum dolor sit amet constur adipisicing elit sed 
+                  eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.
+                </small> </p>
+              </div>
+              <span class="half-box"></span>
+              <div class="testimonial-card-info flex">
+                <img src="./Image/Ellipse.png" alt="Women working in laptop">
+                <span>
+                  <b class="fs-600 text-neutral">Lora Martin</b>
+                  <small class="fs-400 text-secoundary-100">Web Developer/</small>
+                </span>
+              </div>
+            </div>
+
+            <div class="testimonial-card"> <!--Testimonial Card-03-->
+              <div class="testimonial-card-quote | bg-neutral-100">
+                <p>
+                  <i class="fa-solid fa-quote-right"></i>
+                  <small  class="fs-400 text-primary">Lorem ipsum dolor sit amet constur adipisicing elit sed 
+                  eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.
+                </small> </p>
+              </div>
+              <span class="half-box"></span>
+              <div class="testimonial-card-info flex">
+                <img src="./Image/Ellipse1.png" alt="Women working in laptop">
+                <span>
+                  <b class="fs-600 text-neutral">Lora Martin</b>
+                  <small class="fs-400 text-secoundary-100">Web Developer/</small>
+                </span>
+              </div>
+            </div>
+
+            <div class="testimonial-card"> <!--Testimonial Card-04-->
+              <div class="testimonial-card-quote | bg-neutral-100">
+                <p>
+                  <i class="fa-solid fa-quote-right"></i>
+                  <small  class="fs-400 text-primary">Lorem ipsum dolor sit amet constur adipisicing elit sed 
+                  eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.
+                </small> </p>
+              </div>
+              <span class="half-box"></span>
+              <div class="testimonial-card-info flex">
+                <img src="./Image/Ellipse.png" alt="Women working in laptop">
+                <span>
+                  <b class="fs-600 text-neutral">Lora Martin</b>
+                  <small class="fs-400 text-secoundary-100">Web Developer/</small>
+                </span>
+              </div>
+            </div>
+
+            <div class="testimonial-card"> <!--Testimonial Card-05-->
+              <div class="testimonial-card-quote | bg-neutral-100">
+                <p>
+                  <i class="fa-solid fa-quote-right"></i>
+                  <small  class="fs-400 text-primary">Lorem ipsum dolor sit amet constur adipisicing elit sed 
+                  eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.
+                </small> </p>
+              </div>
+              <span class="half-box"></span>
+              <div class="testimonial-card-info flex">
+                <img src="./Image/Ellipse1.png" alt="Women working in laptop">
+                <span>
+                  <b class="fs-600 text-neutral">Lora Martin</b>
+                  <small class="fs-400 text-secoundary-100">Web Developer/</small>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+     <!--Trusted Partners-->
+    <section style="background-color: transparent;">
+      <div class="sub-section">
+        <div class="container">
+          <div class="heading">
+            <h2 class="fs-primary-heading text-secoundary">Trusted Partners.</h2>
+          </div>
+          <div class="partners">
+            <div class="partner">
+              <img src="./Image/ios-watch.png" alt="watch logo">
+              <h4 class="fs-600">WATCH Network</h4>
+            </div>
+            <div class="partner">
+              <img src="./Image/md-beer.png" alt="beer logo">
+              <h4 class="fs-600">Beer Network</h4>
+            </div> 
+            <div class="partner">
+              <img src="./Image/md-cloudy-night.png" alt="cloud logo">
+              <h4 class="fs-600">cloud Network</h4>
+            </div>
+            <div class="partner">
+              <img src="./Image/md-finger-print.png" alt="finger logo">
+              <h4 class="fs-600 padding-left-500">Y&C Product</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+     <!--Resources-->
+     <section>
+      <div class="container">
+        <div class="even-columns">
+          <div class="right">
+            <div class="heading">
+              <h2 class="fs-primary-heading text-secoundary">Resources.</h2>
+              <h5 class="fs-500 text-secoundary-100">Below are some resources for
+                 people who care about animals or have pets.
+              </h5>
+            </div>
+            <div class="resources-card">
+              <div class="resources-img">
+                <img src="./Image/book-cover.png" alt="" class="resources-card-img">
+              </div>
+              <div class="resource-card-info">
+                <h4 class="fs-600 text-secoundary">New Humanitarianism and the Crisis of Charity</h4>
+                <time class="fs-300 text-secoundary-300">Nov 30, 2018</time>
+                <p class="fs-400 text-secoundary-100">New Humanitarianism and the Crisis of Charity: Good Intentions on the Road to </p>
+                <button class="download">
+                 <span class="fs-400 text-neutral">Download</span>
+                 <img src="./Image/cloud-download.png" alt="download icon">
+                </button>
+              </div>
+            </div>
+            <div class="resources-card">
+              <div class="resources-img">
+                <img src="./Image/book-cover1.png" alt="" class="resources-card-img">
+              </div>
+              <div class="resource-card-info">
+                <h4 class="fs-600 text-secoundary">Power and Charity</h4>
+                <time class="fs-300 text-secoundary-300">Nov 30, 2018</time>
+                <p class="fs-400 text-secoundary-100">Power and Charity: Early History of the Tung Wah Hospital, Hong Kong (East </p>
+                <button class="download">
+                 <span class="fs-400 text-neutral">Download</span>
+                 <img src="./Image/cloud-download.png" alt="download icon">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="left">
+            <div class="resources-menu">
+              <ul role="list">
+                <li><a href="#">All</a></li>
+                <li><a href="#">Training</a></li>
+                <li><a href="#"> Health & Wellness</a></li>
+                <li><a href="#">Home Remedies</a></li>
+                <li><a href="#">Street Story</a></li>
+              </ul>
+            </div>
+            <div class="resources-card">
+              <div class="resources-img">
+                <img src="./Image/book-cover2.png" alt="" class="resources-card-img">
+              </div>
+              <div class="resource-card-info">
+                <h4 class="fs-600 text-secoundary">Accountability to Affected People</h4>
+                <time class="fs-300 text-secoundary-300">Nov 30, 2018</time>
+                <p class="fs-400 text-secoundary-100">This review analyses the approaches used by the 10 Swiss NGOs currently</p>
+                <button class="download">
+                  <span class="fs-400 text-neutral">Download</span>
+                 <img src="./Image/cloud-download.png" alt="download icon">
+                </button>
+              </div>
+            </div>
+            <div class="resources-card">
+              <div class="resources-img">
+                <img src="./Image/book-cover3.png" alt="" class="resources-card-img">
+              </div>
+              <div class="resource-card-info">
+                <h4 class="fs-600 text-secoundary">Accountability to Affected People</h4>
+                <time class="fs-300 text-secoundary-300">Nov 30, 2018</time>
+                <p class="fs-400 text-secoundary-100">After a devastating plague, two communities emerge as bastions of</p>
+                <button class="download">
+                  <span class="fs-400 text-neutral">Download</span>
+                 <img src="./Image/cloud-download.png" alt="download icon">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <section class="f-section | bg-neutral-200">
+        <div class="container">
+          <div class="top">
+            <div class="footer-logo">
+              <a href=""><img src="./Image/logo.png" alt="Webpage logo" class="nav-logo"></a>
+              <ul role="list">
+                <li><span class="fs-400 text-primary">Address:</span>&nbsp;<span class="fs-400 text-secoundary-100">Double Standard, Lalitpur,Nepal.</span></li>
+                <li><span class="fs-400 text-primary">Phone:</span>&nbsp;<span class="fs-400 text-secoundary-100"> +1 234 567 8900</span></li>
+                <li><span class="fs-400 text-primary">Email:</span>&nbsp;<span class="fs-400 text-secoundary-100">  info@ngodistro.com</span></li>
+              </ul>
+            </div>
+            <div class="about-navlink">
+              <h4 class="fs-600 text-primary">About</h4>
+              <ul role="list">
+                <li><a href="#">Saltpeater</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+            <div class="resources-navlink">
+              <h4 class="fs-600 text-primary">Resources</h4>
+              <ul role="list">
+                <li><a href="#">Research & <br>Reports</a></li>
+                <li><a href="#">Porject</a></li>
+                <li><a href="#">News and <br>Events</a></li>
+              </ul>
+            </div>
+            <div class="email-form">
+              <h4 class="fs-600 text-primary">Newsletter</h4>
+              <div class="email">
+                <form action="">
+                  <input type="email" placeholder="Email">
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--Scroll to top-->    
+      <div class="scroll-top">
+        <a href="#" class="to-top">
+          <img src="./Image/arrow.png" alt="">
+          <h4 class="fs-400 text-secoundary-100">TOP</h4>
+        </a>
+      </div>
+      </section>
+
+      <section class="f-section-1">
+        <div class="container">
+          <div class="bottom">
+            <div class="right">
+              <span class="fs-400 text-primary">Designed by Y & C | All Rights Reserved ©YIPL 2019</span>
+            </div>
+            <div class="left">
+              <div class="footer-socail-icon | flex">
+                  <h4 class="fs-600 text-primary">
+                    Follow us on:
+                  </h4>
+                  <span class="social-icons">
+                    <ul role="list" aria-label="social link" class="flex fs-700">
+                      <li><a aria-label="Twitter" href="#"><i class="fa-brands fa-twitter | text-primary "></i></a></li>
+                      <li><a aria-label="Linkedln" href="#"><i class="fa-brands fa-linkedin | text-primary"></i></a></li>
+                      <li><a aria-label="Instagram" href="#"><i class="fa-brands fa-facebook | text-primary"></i></a></li>
+                      <li><a aria-label="Youtube" href="#"><i class="fa-brands fa-youtube | text-primary"></i></a></li>
+                    </ul>
+                  </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" ></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
